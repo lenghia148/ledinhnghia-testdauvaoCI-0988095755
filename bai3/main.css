@@ -1,0 +1,170 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    background-color: #E5E5E5;
+    position: relative;
+}
+
+.main 
+{   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px;
+    position: absolute;
+    width: 1100px;
+    height: 830px;
+    left: 193px;
+    top: 173px;
+    background-color: white;
+    border: 1px solid pink
+    ;
+}
+.user 
+{
+    width: 91px;
+height: 40px;
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 40px;
+
+/* #151B32 */
+
+color: #151B32;
+}
+
+.search 
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid yellow;
+    height: 50px;
+    align-items: center;
+}
+.list-menu-items
+{
+    display: inline-block;
+}
+.search-input
+{
+
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px
+}
+
+.items-1
+{
+    width: 89px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+/* #151B32 */
+
+color: #151B32;
+
+opacity: 0.8;
+
+}
+
+.items-2 
+{
+width: 83px;
+height: 50px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 50px;
+/* identical to box height */
+
+background-color:  #849FFF;;
+color: blue;
+
+}
+
+.items-3
+{
+    width: 53px;
+    height: 24px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    
+    /* #151B32 */
+    
+    color: #151B32;
+    
+    opacity: 0.8;
+}
+
+.items-4
+{
+    width: 55px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+/* #151B32 */
+
+color: red;
+
+opacity: 0.8;
+}
+
+.items-5
+{
+    width: 94px;
+height: 24px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+
+/* #151B32 */
+
+color: #151B32;
+
+opacity: 0.8;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}

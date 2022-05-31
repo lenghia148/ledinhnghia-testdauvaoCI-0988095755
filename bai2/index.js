@@ -12,5 +12,5 @@ function numberOneTriangle(number)
 	
 
 
-numberOneTriangle(2)
+numberOneTriangle(4)
  
