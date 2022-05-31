@@ -4,6 +4,19 @@ let button = document.querySelector(".button");
 let primeNumber = document.querySelector(".prime-number");
 let prime = "";
 
+function primes(number) {
+    if (number < 2) {
+      return false;
+    }
+  
+    for (let i = 2; i <= Math.sqrt(number); i++) {
+      if (number % i === 0) {
+        return false;
+      }
+    }
+    return true;
+  }
+
 button.addEventListener("click", () => {
     prime = "";
   let a = Number(numberA.value);
@@ -23,15 +36,4 @@ else
 }
 });
 
-function primes(number) {
-  if (number < 2) {
-    return false;
-  }
 
-  for (let i = 2; i <= Math.sqrt(number); i++) {
-    if (number % i === 0) {
-      return false;
-    }
-  }
-  return true;
-}
