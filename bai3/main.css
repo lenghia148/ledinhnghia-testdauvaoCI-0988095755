@@ -48,6 +48,11 @@ color: #151B32;
     border: 1px solid yellow;
     height: 50px;
     align-items: center;
+    
+}
+.note-2
+{
+    margin-left: 2%;
 }
 .list-menu-items
 {
@@ -99,7 +104,9 @@ line-height: 50px;
 /* identical to box height */
 
 background-color:  #849FFF;;
-color: blue;
+color: white;
+padding-left: 5px;
+border-radius: 5px;
 
 }
 
@@ -167,4 +174,82 @@ opacity: 0.8;
 flex: none;
 order: 0;
 flex-grow: 0;
+}
+.person 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+.preson-detail
+{   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 31%;
+    height: 208px;
+   
+    margin: 2% 0;
+}
+.preson-detail>img 
+{   
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.info 
+{   
+    margin-left: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.info-1 
+{   font-family: 'Merriweather';
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.info-1>span
+{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+}
+.info-2
+{   
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    font-family: 'Poppins';
+    font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+}
+.info-2>span
+
+{   
+    margin: 2px 5px;
+    border: 1px solid #516FD5;
+    border-radius: 10px;
+    color: #516FD5;
+}
+.note 
+{
+    border: 1px solid #516FD5;
+    border-radius: 5px;
 }
